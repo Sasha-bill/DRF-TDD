@@ -12,7 +12,8 @@ all_tags = [x.tag for x in all_elms]
 
 c = Counter(all_tags)
 
-# print('all:', len(all_elms), 'span:', c['span'])
+print('all:', len(all_elms), 'span:', c['span'])
+
 d = {}
 for e in c:
     d[e] = c[e]
