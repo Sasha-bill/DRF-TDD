@@ -17,6 +17,6 @@ d = {}
 for e in c:
     d[e] = c[e]
 
-j = json.dumps(d)
+j = json.dumps(d, sort_keys=True, indent=4)
 print(j)
 
