@@ -3,7 +3,7 @@ from lxml import html
 from collections import Counter
 import json
 
-url = 'http://www.cyberforum.ru/python-web/thread1966556.html'
+url = 'https://github.com/Sasha-bill/DRF-TDD'
 page = requests.get(url)
 tree = html.fromstring(page.content)
 
